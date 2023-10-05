@@ -7,7 +7,7 @@ function validateForm() {
         loginButton.classList.remove("redButton");
         loginButton.classList.add("greenButton");
         loginButton.disabled = false;
-    } else {
+    } else  {
         loginButton.classList.remove("greenButton");
         loginButton.classList.add("redButton");
         loginButton.disabled = true;
